@@ -5,7 +5,7 @@ public class salesTax {
         Scanner sc = new Scanner(System.in);
         double price = sc.nextInt();
         double tax = (.05 * price);
-        price = (double) (price + tax);
+        price = (price + tax);
         System.out.println("Your total after tax is: " + price);
     }
 }
